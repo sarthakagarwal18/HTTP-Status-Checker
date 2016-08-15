@@ -1,0 +1,28 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTTP Status Checker</title>
+    <link href="{% static 'bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'styles.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron enter">
+           <h2 class="heading">HTTP Status Checker</h2>
+           <span class="desc">Check the status of any website by<br>getting its HTTP Status Code.</span>
+           <hr>
+            <form class="enterurl" method="post" action="/status/">
+               {% csrf_token %}
+                <input type="name" name="url" id="url" class="form-control" placeholder="Enter URL..." required autofocus>
+                <button class="btn btn-primary" type="submit">Check Status</button>
+            </form>
+        </div>
+        {% block section %}
+		{% endblock %}
+    </div>
+</body>
+<footer>
+	<span class="foot">&copy; Sarthak Agarwal</span>
+</footer>
+</html>

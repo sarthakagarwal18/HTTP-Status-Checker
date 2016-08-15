@@ -1,0 +1,72 @@
+body {
+	background-image: url("1.jpg");
+	padding-top: 40px;
+}
+
+.container{
+	width: 550px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: white;
+}
+
+.enter{
+	height: 380px;
+}
+
+.heading{
+	font-family: Bebas;
+	word-spacing: 5px;
+	margin-top: -10px;
+	padding-bottom: 10px;
+}
+
+.desc{
+	font-family: Helvetica Light;
+	font-size: 20px;
+}
+
+hr{
+	margin-top: 35px;
+}
+
+.enterurl {
+	width: 400px;
+	margin: 0 auto;
+	margin-top:50px;
+}
+
+.btn{
+	margin-top:35px;
+}
+
+footer {
+	color: white;
+	background: #222;
+	text-align: center;
+	height: 47px;
+/*	bottom:0;*/
+	padding-top: 13px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.result{
+	height: 10px;
+}
+
+img{
+	margin-top: -20px;
+}
+
+h3{
+	margin-top: -10px;
+}
+
+.foot{
+	margin-right:1200px;
+}

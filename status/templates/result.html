@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block section %}
+<div class="jumbotron result">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 col-sm-offset-3">
+				{% block img %}
+				{% endblock %}
+			</div>
+			<div class="col-sm-5">
+				<h3>{{message}}</h3>
+			</div>         	
+		</div>
+	</div>
+</div>
+{% endblock %}
