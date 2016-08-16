@@ -6,7 +6,7 @@ This application checks the status of any website by getting its HTTP Status Cod
      git clone https://github.com/sarthakagarwal18/HTTP-Status-Checker.git
      pip install -r requirements.txt
      python manage.py runserver
-     Go to http://localhost:8000/home/
+     Go to http://localhost:8000/
 
 ####Screenshots
 
